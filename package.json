@@ -1,0 +1,23 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "membangun bookself",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "jufron",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.3.6"
+  }
+}
